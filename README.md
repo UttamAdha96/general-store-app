@@ -2,7 +2,29 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+# General Store App
+
+A mobile app built with Expo + React Native.
+
+## Features
+- Home screen with categories & products
+- Store open/closed logic
+- Loading skeletons
+- Modular component architecture
+
+## Tech Stack
+- Expo
+- React Native
+- TypeScript
+- NativeWind
+
+## Status
+🚧 In active development
+
+
+
+
+## Intorduction about tech stack
 
 1. Install dependencies
 
