@@ -1,14 +1,32 @@
-import { View, Text } from "react-native";
+import { useAuth } from "@/src/auth/useAuth";
+import { useRouter } from "expo-router";
+import { Text, TouchableOpacity, View } from "react-native";
 
-export default function Profile() {
-    return (
-        <View className="flex-1 bg-white justify-center items-center px-4">
-            <Text className="text-2xl font-bold mb-2">
-                Profile
-            </Text>
-            <Text className="text-gray-600">
-                Manage your account.
-            </Text>
-        </View>
-    );
+export default function ProfileScreen() {
+  const { user, logout } = useAuth();
+  const router = useRouter();
+
+  if (!user) {
+    return <Text>NO USER</Text>;
+  }
+
+  const handleLogout = () => {
+    logout();
+   router.replace("/(auth)/login");
+  };
+
+  return (
+    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+      <Text>ID: {user.id}</Text>
+      <Text>Name: {user.name}</Text>
+      <Text>Email: {user.email}</Text>
+
+      <TouchableOpacity
+        onPress={handleLogout}
+        style={{ marginTop: 20, backgroundColor: "red", padding: 12 }}
+      >
+        <Text style={{ color: "white" }}>LOGOUT</Text>
+      </TouchableOpacity>
+    </View>
+  );
 }

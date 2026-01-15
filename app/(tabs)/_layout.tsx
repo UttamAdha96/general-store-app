@@ -1,12 +1,21 @@
-import React from 'react'
-import {Tabs} from "expo-router";
+import { useAuth } from "@/src/auth/useAuth";
 import { Ionicons } from "@expo/vector-icons";
+import { Redirect, Tabs } from "expo-router";
+import React from 'react';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 const PRIMARY = "#2E7D32";
 
 const _Layout = () => {
     const insets = useSafeAreaInsets();
+
+      const { user } = useAuth();
+
+  // 🔥 HARD GUARD
+  if (!user) {
+    return <Redirect href="/(auth)/login" />;
+  }
+
     return (
         <Tabs
             screenOptions={{

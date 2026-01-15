@@ -3,13 +3,19 @@ import { ProductCard } from "@/src/components/product/ProductCard";
 import { useHomeData } from "@/src/hooks/useHomeData";
 import { router } from "expo-router";
 import { FlatList, Text, TextInput, View } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
+
+
 
 export default function HomeScreen() {
   const { categories, products } = useHomeData();
   const isOpen = true;
+  const insets = useSafeAreaInsets();
 
   return (
-    <View className="flex-1 bg-white px-4 pt-12">
+    <View className="flex-1 bg-white px-4"
+      style={{ paddingTop: insets.top }}
+      >
       <FlatList
         data={products}
         keyExtractor={(item) => item.id}
