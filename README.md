@@ -64,9 +64,34 @@ To learn more about developing your project with Expo, look at the following res
 - [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
 - [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
 
-Join our community of developers creating universal apps.
+## Application View: 
+1) Login & Signup page
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+![Screenshot_2026-01-16-09-36-13-25_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/950f56ae-5441-4592-b90d-9ea543583a7c)
+![Screenshot_2026-01-16-09-36-19-07_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/f50b4fb8-e7c2-4a51-8e8d-bffbc51cc00d)
+
+
+2) Home Page
+
+![Screenshot_2026-01-16-09-36-44-52_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/a7d95eaa-650c-44fc-a1d8-9ffe8b8690c2)
+
+
+3) Cetagory Page
+
+![Screenshot_2026-01-16-09-36-48-20_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/1f853de7-2096-48c7-9027-588def6b07af)
+
+
+4) Request Product Page
+
+![Screenshot_2026-01-16-09-36-52-02_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/8dfbe317-bc43-4554-b13c-6fcae5a03f9f)
+
+
+5) Cart Page
+
+![Screenshot_2026-01-16-09-37-39-07_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/c2784c1c-0937-4d4b-ace5-fa3d2c3fad56)
+
+
+6) Profile Page
+
+![Screenshot_2026-01-16-09-37-44-15_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/0fe61ae8-b997-469d-aad4-78e7d348099b)
