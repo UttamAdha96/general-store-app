@@ -67,7 +67,7 @@ const _Layout = () => {
                 options={{
                     title: "Cart",
                     headerShown: false,
-                    tabBarBadge: 3, // later connect to cart state
+                  //   tabBarBadge: 3, later connect to cart state
                     tabBarIcon: ({ color, size }) => (
                         <Ionicons name="cart-outline" size={size} color={color} />
                     ),
